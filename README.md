@@ -3,4 +3,4 @@ Program Online Shopping System ini berjalan dengan prinsip object oriented progr
 
 Ketika pengguna menambahkan produk ke keranjang, sistem akan membuat objek ShoppingCart yang menyimpan referensi ke produk yang dipilih beserta jumlahnya. ShoppingCart akan melacak semua item yang ditambahkan dan dapat menghitung total belanjaan. Pada saat checkout, sistem akan memeriksa ketersediaan stok untuk setiap produk dalam keranjang dan mengurangi stok produk jika pembelian berhasil. Program ini mengimplementasikan konsep pewarisan dimana kelas Electronic dan Clothing mewarisi properti dan method dari kelas Product, namun masing-masing memiliki atribut dan perilaku khusus. Polimorfisme diterapkan melalui override method displayInfo() di setiap subclass sehingga informasi spesifik untuk masing-masing jenis produk dapat ditampilkan dengan tepat. Program ini merupakan contoh aplikasi sederhana dari konsep OOP yang mendemonstrasikan bagaimana objek-objek dapat berinteraksi untuk membentuk sebuah sistem yang fungsional.
 
-# contoh
+# 1 contoh
